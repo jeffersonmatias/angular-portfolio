@@ -1,0 +1,23 @@
+@media (max-width: 845px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .bio,
+  .tecnologies,
+  .habilidades {
+    width: 100%;
+  }
+}
+
+@media (max-width: 455px) {
+  .habilidades {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 310px) {
+  .habilidades {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

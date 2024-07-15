@@ -1,0 +1,13 @@
+@media (max-width: 999px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 675px) {
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

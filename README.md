@@ -1,27 +1,22 @@
-# AngularPortfolio
+<img src="https://i.imgur.com/xvoz3uX.png"  style="display: block; margin-left: auto; margin-right: auto;"/>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+# Portfólio 
 
-## Development server
+ primeira versão do meu novo portfólio desenvolvido com Angular! Estou animado em compartilhar meu trabalho. O projeto apresenta uma navegação em rotas que permite aos usuários explorar facilmente diferentes seções, como projetos, sobre mim e contato. Além disso, o portfólio conta com responsividade para dispositivos móveis, garantindo uma experiência de usuário completa e dinâmica. Este é apenas o começo, estou comprometido em continuar evoluindo o projeto e adoraria receber o seu feedback e sugestões para futuras melhorias.👨‍💻
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Voce pode acessar em: [jeffersoncarvalho.tech](https://www.jeffersoncarvalho.tech/)
 
-## Code scaffolding
+## Tecnologias utilizadas:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este projeto foi Criado com [Angular CLI](https://github.com/angular/angular-cli) versão 14.1.2.
 
-## Build
+<img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"/>
+<img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Créditos
 
-## Running unit tests
+### Este projeto foi desenvolvido por:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Jefferson Carvalho](https://www.jeffersoncarvalho.tech/) - Desenvolvedor Principal
