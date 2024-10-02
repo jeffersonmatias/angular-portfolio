@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/xvoz3uX.png"  style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="https://i.imgur.com/xvoz3uX.png"  style="display: block; margin: auto;"/>
 
 # Portfólio 
 
