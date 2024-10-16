@@ -34,7 +34,7 @@ body {
 h1 {
   color: #fff;
   font-size: 20px;
-  margin: 15px;
+  margin: 20px;
 }
 
 h2 {
@@ -71,6 +71,7 @@ a {
   padding: 7px;
   width: 200px;
 }
+
 .voltar {
   margin-left: 20px;
 }

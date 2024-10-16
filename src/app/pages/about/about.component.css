@@ -14,6 +14,7 @@
 }
 
 .bio p {
+  line-height: 1.5;
   margin-bottom: 20px;
   color: var(--corFonte2);
 }

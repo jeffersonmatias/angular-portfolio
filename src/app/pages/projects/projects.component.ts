@@ -8,5 +8,32 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    const categoriasElement = document.getElementById('categorias');
+    if (categoriasElement) {
+      categoriasElement.addEventListener(
+        'change',
+        this.onCategoryChange.bind(this)
+      );
+    }
+  }
+
+  private onCategoryChange(event: Event): void {
+    const category = (event.target as HTMLSelectElement).value;
+    console.log('Categoria selecionada:', category);
+
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach((card) => {
+      if (category === 'todos') {
+        card.classList.remove('hidden');
+      } else {
+        if (card.classList.contains(category)) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      }
+    });
+  }
 }

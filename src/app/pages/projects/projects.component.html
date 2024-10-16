@@ -3,29 +3,42 @@
     >VOLTAR</a
   >
   <h1>Projetos</h1>
+  <div class="filter_projects">
+    <select id="categorias" name="categorias">
+      <option value="todos" selected>Todos os Projetos</option>
+      <option value="pessoal">Projetos Pessoais</option>
+      <option value="estudo">Projetos de Estudos</option>
+    <!--
+      <option value="profissional">Projetos Profissionais</option>
+    --> 
+    </select>
+  </div>
   <div class="projects">
-        <!--Fórmula Digital-->
-        <app-project
-        img="https://i.imgur.com/euanUzh.png"
-        title="Fórmula Digital"
-        description="uma assessoria de marketing especializada em ajudar empresas a venderem mais."
-        tecnologies="HTML | CSS | JavaScript"
-        repository="https://github.com/jeffersonmatias/formula-digital"
-        deploy="https://formula-digital.vercel.app/"
-      ></app-project>
+    <!--Fórmula Digital-->
+    <app-project
+      class="card pessoal"
+      img="https://i.imgur.com/euanUzh.png"
+      title="Fórmula Digital"
+      description="uma assessoria de marketing especializada em ajudar empresas a venderem mais."
+      tecnologies="HTML | CSS | JavaScript"
+      repository="https://github.com/jeffersonmatias/formula-digital"
+      deploy="https://formula-digital.vercel.app/"
+    ></app-project>
 
     <!--Tec Solutions-->
     <app-project
-    img="https://i.imgur.com/rCgXNbB.png"
-    title="Tech-solutions"
-    description="Tech Solutions é um projeto web que utiliza HTML, CSS e JavaScript para criar uma plataforma interativa e amigável."
-    tecnologies="HTML | CSS | JavaScript"
-    repository="https://github.com/jeffersonmatias/tech-solutions"
-    deploy="https://tech-solutions-nine.vercel.app/"
-  ></app-project>
+      class="card pessoal"
+      img="https://i.imgur.com/rCgXNbB.png"
+      title="Tech-solutions"
+      description="Tech Solutions é um projeto web que utiliza HTML, CSS e JavaScript para criar uma plataforma interativa e amigável."
+      tecnologies="HTML | CSS | JavaScript"
+      repository="https://github.com/jeffersonmatias/tech-solutions"
+      deploy="https://tech-solutions-nine.vercel.app/"
+    ></app-project>
 
     <!--Voicify-->
     <app-project
+      class="card estudo"
       img="https://i.imgur.com/gfqU2TQ.png"
       title="Voicify"
       description="Voicify é uma aplicação web projetada para converter texto em áudio de forma rápida e eficiente."
@@ -36,6 +49,7 @@
 
     <!--BuzzFeed-->
     <app-project
+      class="card estudo"
       img="https://i.imgur.com/DVysXzl.jpg"
       title="BuzzFeed"
       description="O projeto é um site de quiz interativo, inspirado nos populares quizzes da plataforma Buzzfeed."
@@ -46,6 +60,7 @@
 
     <!--Psn Store-->
     <app-project
+      class="card estudo"
       img="https://i.imgur.com/EvcJAqQ.png"
       title="Playstation-Store"
       description="interface da playstation store recriada com angular."

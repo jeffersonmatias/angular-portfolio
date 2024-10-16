@@ -9,9 +9,10 @@
 }
 
 .social_medias {
-  width: 100%;
+  max-width: 400px;
   height: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: center;
 }
@@ -35,4 +36,16 @@ i {
   padding: 5px;
   font-size: 40px;
   color: var(--corFonte3);
+}
+
+
+
+@media (max-width: 400px){
+  .social_medias{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .social_medias a {
+    margin-bottom: 20px;
+  }
 }
